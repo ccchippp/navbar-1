@@ -1,4 +1,13 @@
 .Navbar {
     background-color: #282c34;
     color: whitesmoke;
+    border: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+span {
+    padding: 20;
 }
