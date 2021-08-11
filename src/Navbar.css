@@ -14,4 +14,7 @@ span {
 span:hover {
     cursor: pointer;
     border-top: 2px solid whitesmoke;
+    margin-top: -2px;
+}
+span:hover ~ p {
 }
