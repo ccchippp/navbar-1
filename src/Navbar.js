@@ -1,7 +1,8 @@
 import styles from './Navbar.css'
-import React from 'react'
+import React, { useState } from 'react'
 
 function Navbar() {
+
     return (
         <div className='Navbar'>
             <span className="hamburger"><p>-</p></span>
