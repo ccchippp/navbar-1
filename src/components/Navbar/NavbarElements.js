@@ -59,3 +59,20 @@ export const NavBtn = styled.nav `
         display: none;
     }
 `
+
+export const NavBtnLink = styled(Link) `
+    border-radius: 4px;
+    background: #256ce1;
+    padding: 10px 22px;
+    color: #fff;
+    border: none;
+    outline: none'
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background
+    }
+`
