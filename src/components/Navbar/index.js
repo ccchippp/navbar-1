@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { Bars, NavMenu, Link } from './NavbarElements'
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                     {/* <img src="" alt=""/> */}
                     <h1>Logo</h1>
                 </NavLink>
-                <Hamburger/>
+                <Bars/>
                 <NavMenu>
                     <NavLink to='/about' activeStyle>
                         About
