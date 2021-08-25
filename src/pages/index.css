@@ -16,6 +16,7 @@
 .sign-in-h1 {
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
     /* align-items: center; */
 }
 
@@ -23,4 +24,12 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
 }
