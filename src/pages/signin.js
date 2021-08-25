@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from './index.css'
+
 
 const signin = () => {
     return (
-        <div>
+        <div className='page'>
+            <h1>Sign In</h1>
             <form>
                 <label htmlFor="fname" className="fname"></label>
                 <input type="text" id='fname' name='fname'/><br></br>
