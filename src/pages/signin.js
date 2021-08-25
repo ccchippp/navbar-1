@@ -1,17 +1,21 @@
 import React from 'react'
 import styles from './index.css'
 
-
 const signin = () => {
     return (
-        <div className='page'>
-            <h1>Sign In</h1>
-            <form>
-                <label htmlFor="fname" className="fname"></label>
-                <input type="text" id='fname' name='fname'/><br></br>
-                <label htmlFor="lname" className="lname"></label>
-                <input type="text" id='lname' name='lname'/><br></br>
-            </form>
+        <div className='sign-in'>
+            <div className='sign-in-h1'>
+                <h1>Sign In</h1>
+            </div>
+
+            <div className='sign-in-form'>
+                <form>
+                    <label htmlFor="fname" className="fname">First Name: </label>
+                    <input type="text" id='fname' name='fname'/><br></br>
+                    <label htmlFor="lname" className="lname">Last Name: </label>
+                    <input type="text" id='lname' name='lname'/><br></br>
+                </form>
+            </div>
         </div>
     )
 }

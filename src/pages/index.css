@@ -4,3 +4,23 @@
     align-items: center;
     height: 90vh;
 }
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 90vh;
+}
+
+.sign-in-h1 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.sign-in-form {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
