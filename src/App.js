@@ -7,6 +7,7 @@ import About from './pages/about.js'
 import Service from './pages/service.js'
 import Contact from './pages/contact.js'
 import SignUp from './pages/signup.js'
+import SignIn from './pages/signin.js'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/service' component={Service}/>
         <Route path='/contact-us' component={Contact}/>
         <Route path='/sign-up' component={SignUp}/>
+        <Route path='/sign-in' component={SignIn}/>
       </Switch>
   </Router>
   );
