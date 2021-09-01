@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: center;
 }
-.container {
+/* .container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -52,4 +52,4 @@
 .blue {
   background-color: rgba(0,0,255, .6);
   grid-area: 1/ 2/ 4/ 3;
-}
+} */

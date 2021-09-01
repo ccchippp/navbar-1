@@ -11,21 +11,21 @@ import SignIn from './pages/signin.js'
 
 function App() {
   return (
-    <div className='container'>
-      <span className="blue"></span>
-      <span className="red"></span>
-    </div>
-  // <Router>
-  //     <Navbar/>
-  //     <Switch>
-  //       <Route path='/' exact component={Home}/>
-  //       <Route path='/about' component={About}/>
-  //       <Route path='/service' component={Service}/>
-  //       <Route path='/contact-us' component={Contact}/>
-  //       <Route path='/sign-up' component={SignUp}/>
-  //       <Route path='/sign-in' component={SignIn}/>
-  //     </Switch>
-  // </Router>
+    // <div className='container'>
+    //   <span className="blue"></span>
+    //   <span className="red"></span>
+    // </div>
+  <Router>
+      <Navbar/>
+      <Switch>
+        <Route path='/' exact component={Home}/>
+        <Route path='/about' component={About}/>
+        <Route path='/service' component={Service}/>
+        <Route path='/contact-us' component={Contact}/>
+        <Route path='/sign-up' component={SignUp}/>
+        <Route path='/sign-in' component={SignIn}/>
+      </Switch>
+  </Router>
   );
 }
 
