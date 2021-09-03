@@ -19,6 +19,7 @@ const signin = () => {
                     <label htmlFor="password" className="password">Confirm Password: </label>
                     <input type="password" id='password' name='password'/><br></br>
                     <button>Submit</button>
+                    <button>Cancel</button>
                 </form>
             </div>
         </div>
