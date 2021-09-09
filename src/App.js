@@ -11,10 +11,6 @@ import SignIn from './pages/signin.js'
 
 function App() {
   return (
-    // <div className='container'>
-    //   <span className="blue"></span>
-    //   <span className="red"></span>
-    // </div>
   <Router>
       <Navbar/>
       <Switch>

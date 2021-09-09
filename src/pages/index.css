@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     height: 90vh;
 }
 
@@ -17,13 +16,11 @@
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
-    /* align-items: center; */
 }
 
 .sign-in-form {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 label {
@@ -38,3 +35,4 @@ button {
     padding: 0 10px;
     margin: 0 30px;
 }
+
